@@ -8,24 +8,34 @@
   </head>
   <body>
     <div class="header">
-        <h1>Weatherstation by Max</h1>
+      <h1>Weatherstation by Max</h1>
       <ul>
         <li>
-          <a href=""
-            ><img src="./images/dashboard-svgrepo-com.svg" alt="" />Dashboard
+          <a href="Dashboard"
+            ><img src="./images/dashboard-svgrepo-com.svg" alt="" />
+            <p>Dashboard</p>
           </a>
         </li>
         <li>
-          <a href=""
-            ><img src="./images/database-svgrepo-com.svg" alt="" />Database
+          <a href="Database"
+            ><img src="./images/database-svgrepo-com.svg" alt="" />
+            <p>Database</p>
           </a>
         </li>
       </ul>
     </div>
     <div class="dashcontainer">
-      <div id="leftside"></div>
-      <div id="rightside"></div>
+      <p>Aufzeichnung:</p>
+      <div class="humidity">humidity</div>
+      <div class="temperature">temperature</div>
+      <div class="cotwo">CO2</div>
+      <p>Aktuelle Werte:</p>
+      <div class="noise">noise</div>
+      <div class="pressure">pressure</div>
+      <div class="curtemp">current temperature</div>
     </div>
     <script src="index.js"></script>
   </body>
+  <footer><p>current location:</p>
+  <div id="location"></div></footer>
 </html>
