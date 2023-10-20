@@ -3,14 +3,18 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "C:\\",
+                "C:\\msys64\\mingw64\\include",
+                "C:\\msys64\\mingw32\\include"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
             ],
-            "compilerPath": "C:/msys64/ucrt64/bin/g++.exe"
+            "compilerPath": "C:/msys64/ucrt64/bin/g++.exe",
+            "compilerArgs": []
         }
     ],
     "version": 4
