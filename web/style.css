@@ -87,3 +87,8 @@ footer{
     border-top: 1px solid grey;
     margin-top: 20px;
 }
+
+.pressed{
+  border: 3px solid grey;
+  opacity: 0.6;
+}
