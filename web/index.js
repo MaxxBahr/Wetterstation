@@ -7,15 +7,9 @@ function retrieveData(){
     
 }
 
-document.addEventListener("click", function(event){
-    animateButtons(event.target.className);
+$(".dashcontainer>div").click(function(event){
+    event.currentTarget.classList.add("pressed");
+    setTimeout(() =>{
+        event.currentTarget.classList.remove("pressed");
+    }, 300);
 })
-
-function animateButtons(pressedButton){
-    var animator = document.querySelector("."+pressedButton);
-    animator.classList.add("pressed");
-    setTimeout(function(){
-        animator.classList.remove("pressed");
-    }, 100)
-
-}
