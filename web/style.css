@@ -96,3 +96,29 @@ footer{
 li:hover{
   opacity: 0.5;
 }
+
+.database{
+  width: 100%;
+  display: block;
+  clear: both;
+  background-color: wheat;
+  margin-top: 10px;
+  border-bottom: 1px solid grey;
+  text-align: center;
+}
+
+.database th, td{
+  border: 1px solid #dddddd;
+}
+
+.database th {
+  background-color: #f2f2f2;
+}
+
+.database tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.database table {
+  width: 100%;
+  border-collapse: collapse;
+}

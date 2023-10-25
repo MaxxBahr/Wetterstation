@@ -13,3 +13,10 @@ $(".dashcontainer>div").click(function(event){
         event.currentTarget.classList.remove("pressed");
     }, 300);
 })
+
+
+
+$(".data").on("click", function(e){
+    e.preventDefault();
+    $(".database").slideToggle();
+})
