@@ -99,6 +99,9 @@ li:hover{
 
 .database{
   width: 100%;
+  border-collapse: collapse;
+  max-height: 10vh;
+  overflow-y: auto;
   display: block;
   clear: both;
   background-color: wheat;
@@ -113,6 +116,8 @@ li:hover{
 
 .database th {
   background-color: #f2f2f2;
+  position: sticky;
+  top: 0;
 }
 
 .database tr:nth-child(even) {
