@@ -4,7 +4,7 @@
   "description": "A Program to show live indoor Weatherdata via Arduino and Raspberry",
   "main": "web/app.js",
   "scripts": {
-    "test": "node web/app.js"
+    "test": "npx nodemon web/app.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/MaxxBahr/Wetterstation#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
   }
 }
